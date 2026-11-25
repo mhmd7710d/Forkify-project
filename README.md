@@ -8,7 +8,7 @@ HTML, CSS (Sass), JavaScript (MVC architecture) and the Forkify API.
 ## How to run
 Open the live demo, or run locally with `npm install` then `npm start`.
 
-Live demo: https://mhmd7710d.github.io/Forkify-project/dist/ (the repository root keeps the un-built source; the built app is served from /dist/)
+Live demo: https://mhmd7710d.github.io/Forkify-project/ (redirects to the built app in /dist/)
 
 ## Features
 - Search recipes through the Forkify API and adjust servings.
