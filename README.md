@@ -1,19 +1,27 @@
 # Forkify
 
-A recipe app built with HTML, CSS, and vanilla JavaScript. Search recipes, adjust servings, bookmark favorites, and add your own recipes.
+A recipe app: search recipes, open one, change the servings and the ingredient amounts update, bookmark favourites, and add your own recipe.
+
+**Try it:** https://mhmd7710d.github.io/Forkify-project/
+
+![Preview](preview.jpg)
+
+## What you can try
+- Search for an ingredient, for example `pizza`, and pick a result.
+- Change the servings with the minus and plus buttons and watch the quantities change.
+- Bookmark a recipe (saved in the browser), or upload your own recipe.
 
 ## Built with
-HTML, CSS (Sass), JavaScript (MVC architecture) and the Forkify API.
+JavaScript with an MVC structure (model, views, controller), Sass, Parcel for bundling, and the Forkify API for the recipe data.
 
-## How to run
-Open the live demo, or run locally with `npm install` then `npm start`.
+## What I practised
+Splitting code into modules, async/await and error handling, working with a third-party API, pagination, and updating the page from state.
 
-Live demo: https://mhmd7710d.github.io/Forkify-project/ (redirects to the built app in /dist/)
-
-## Features
-- Search recipes through the Forkify API and adjust servings.
-- Bookmark favorites (saved in the browser) and upload your own recipes.
-- Pagination of search results.
+## Run it locally
+```
+npm install
+npm start
+```
 
 ## Credits
 Original project from Jonas Schmedtmann's Complete JavaScript Course, all copyright to Jonas Schmedtmann. Personalized by Mohamed Fathy.
